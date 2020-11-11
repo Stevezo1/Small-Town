@@ -1,0 +1,50 @@
+Charles = {
+    "name": "Charles",
+    "age": "21",
+    "nationality": "Swedish",
+    "country": "America"
+}
+ 
+Nancy = {
+    "name": "Nancy",
+    "age": "64",
+    "nationality": "America",
+    "country": "America"
+}
+ 
+Carly = {
+    "name": "Carly",
+    "age": "27",
+    "nationality": "Japanese",
+    "country": "America"
+}
+ 
+Milly = {
+    "name": "Milly",
+    "age": "38",
+    "nationality": "Cameroon",
+    "country": "America"
+}
+print("These are five people who all live in a small town.Their names are:")
+a = Charles.get("name")
+b = Nancy.get("name")
+c = Carly.get("name")
+d = Milly.get("name")
+print("These are five people who all live in a small town.Their ages are:")
+print(a, b, c, d)
+a = Charles.get("age")
+b = Nancy.get("age")
+c = Carly.get("age")
+d = Milly.get("age")
+print(a, b, c, d)
+print("These are five people who all live in a small town.Their nationality are:")
+a = Charles.get("nationality")
+b = Nancy.get("nationality")
+c = Carly.get("nationality")
+d = Milly.get("nationality")
+print("These are five people who all live in a small town.Their country are:")
+print(a, b, c, d)
+a = Charles.get("country")
+b = Nancy.get("country")
+c = Carly.get("country")
+d = Milly.get("country")
